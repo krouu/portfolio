@@ -1,8 +1,12 @@
+import About from "./about/About";
 import Header from "./header/Header";
 
 const Main = () => {
-    return (  
-        <Header />
+    return (
+        <section>
+            <Header />
+            <About />
+        </section>
     );
 }
  
