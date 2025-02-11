@@ -1,8 +1,10 @@
+import { shareConstants } from "@/share/color/shareConstants";
+
 const ProfileContents = ({title, contents}) => {
     return (  
         <div className="flex flex-col gap-1 text-xl font-black">
             <p>{title}</p>
-            <p className="text-gray-600">{contents}</p>
+            <p style={{color:`${shareConstants.color.contentBlack}`}}>{contents}</p>
         </div>
     );
 }

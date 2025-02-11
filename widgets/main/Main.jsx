@@ -1,4 +1,5 @@
 import About from "./about/About";
+import Experience from "./expeience/Experience";
 import Header from "./header/Header";
 
 const Main = () => {
@@ -6,6 +7,7 @@ const Main = () => {
         <section>
             <Header />
             <About />
+            <Experience />
         </section>
     );
 }

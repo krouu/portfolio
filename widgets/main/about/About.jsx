@@ -7,7 +7,7 @@ import Title from "@/share/components/Title";
 
 const About = () => {
     return (  
-        <section style={{backgroundColor:"#FFFAF4"}} className="w-screen">
+        <section style={{backgroundColor:"#FFF9E5"}} className="w-screen">
             <article className="w-full max-w-screen-xl m-auto py-24">
                 <Title title={"ABOUT ME"} />
                 <div className="flex justify-between items-center gap-32">

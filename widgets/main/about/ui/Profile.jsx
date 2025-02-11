@@ -5,10 +5,11 @@ import { IoLocationSharp } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { constants } from "../data/constants";
 import ProfileContents from "./ProfileContents";
+import { shareConstants } from "@/share/color/shareConstants";
 
 const Profile = () => {
     return (  
-        <div style={{fontFamily:"Paperlogy-8ExtraBold"}} className="grid grid-cols-2 gap-7">
+        <div style={{fontFamily:`${shareConstants.font.normal}`}} className="grid grid-cols-2 gap-7">
             <div className="flex  items-center gap-4">
                 <IoPersonSharp size={35}/>
                 <ProfileContents {...constants.profiles.name} />
