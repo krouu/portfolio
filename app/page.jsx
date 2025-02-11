@@ -1,7 +1,7 @@
-import Image from "next/image";
+import Main from "@/widgets/main/Main";
 
 export default function Home() {
   return (
-    <div>main</div>
+    <Main />
   );
 }
