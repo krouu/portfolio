@@ -15,7 +15,7 @@ export const constants = {
         contents : "JAVA 백엔드 기초이론 학습",
     },{
         title : "- DBMS(2024.01 - 2024.02)",
-        contents : "DBMS 기초부터 심화학습까지(MYSQL, Oracal로 학습 진행)",
+        contents : "DBMS 기초부터 심화학습까지(MySQL, Oracl로 학습 진행)",
     },{
         title : "- JAVA 웹개발 풀스텍(2024.02 - 2024.07)",
         contents : "HTML, CSS, JavaScript, JAVA, Spring, Spring boot, Mybatis 웹 풀스텍 개발 전반",
