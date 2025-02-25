@@ -1,6 +1,8 @@
+import Mypage from "@/widgets/mystery/mypage/Mypage";
+
 const page = () => {
     return (  
-        <div></div>
+        <Mypage />
     );
 }
  

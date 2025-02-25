@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "motion": "^12.4.7",
     "next": "15.1.7",
     "next-images": "^1.8.5",
     "react": "^19.0.0",
