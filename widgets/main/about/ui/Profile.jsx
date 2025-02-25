@@ -30,10 +30,6 @@ const Profile = () => {
                 <MdEmail size={35}/>
                 <ProfileContents {...constants.profiles.email} />
             </div>
-            <div className="flex  items-center gap-4">
-                <IoPersonSharp size={35}/>
-                <ProfileContents {...constants.profiles.name} />
-            </div>
         </div>
     );
 }
