@@ -1,6 +1,8 @@
+import Mystery from "@/widgets/mystery/Mystery";
+
 const page = () => {
     return (  
-        <div></div>
+        <Mystery />
     );
 }
  
