@@ -1,10 +1,7 @@
 import { shareConstants } from "@/share/color/shareConstants";
-import Title from "./ui/Title";
 import ChapterOne from "./ui/ChapterOne";
 import ChapterTwo from "./ui/ChapterTwo";
 import ChapterThree from "./ui/ChapterThree";
-import { TbHomeMove } from "react-icons/tb";
-import Link from "next/link";
 import Info from "./ui/Info";
 import StartContent from "./ui/StartContent";
 
