@@ -12,7 +12,7 @@ const StartContent = () => {
                 y: { duration: 1 },
             }}
         >  
-            <div className="w-full relative flex justify-center">
+            <div className="w-full relative flex justify-center py-24">
                 <img className="w-4/5" src="/bubble.png" alt="" />
                 <img style={{left:"10%"}} className="h-96 absolute" src="/jueun.png" alt="" />
                 <div className="absolute top-1/3 text-2xl flex flex-col gap-4">
