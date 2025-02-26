@@ -20,7 +20,7 @@ export const constants = [
             "- 최고 관리자 페이지에서 회원, 기업, 상품, 결제 정보를 관리",
         ],
         skills : "JAVA, Spring boot, Mybatis, Thymelef, Git, MySQL, dbeaver, Git",
-        git : "https://github.com/leeuihyoun/traveler.git",
+        git : "https://github.com/leeuihyoun/traveler/tree/jueun",
         figma : "https://www.figma.com/design/9SQn2br6QKvs3VQyEQbMu9/TeamProject?node-id=0-1&t=EaXKI99q8VAkfRYW-1",
     },{
         title : "개인 블로그(Private Blog)",
