@@ -3,7 +3,6 @@ import { constants } from "../data/constants";
 import SkillStack from "./SkillStack";
 
 const SkillCard = ({title, skill = []}) => {
-    console.log("SkillCard props:", { title, skill });
     return (  
         <div className="flex flex-col justify-center items-center">
             <div style={{position:"relative"}} className="w-fit">
