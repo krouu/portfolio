@@ -1,10 +1,9 @@
 import Link from "next/link";
 import ComentLi from "./ComentLi";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLink } from "react-icons/fa";
 import { IoLogoFigma } from "react-icons/io5";
-import { MdInsertPhoto } from "react-icons/md";
 
-const ProjectCard = ({title, date, contents, coment, skills, git, photo, figma}) => {
+const ProjectCard = ({title, date, contents, coment, skills, git, link, figma}) => {
     
     return (  
         <div className="w-full max-w-xl flex flex-col gap-3 py-6 px-4 border border-gray-200 rounded-md text-sm">
@@ -26,8 +25,8 @@ const ProjectCard = ({title, date, contents, coment, skills, git, photo, figma})
                         <FaGithub size={25} className="cursor-pointer"/>
                     </Link>
                 )}
-                {photo && (
-                    <MdInsertPhoto size={28} className="cursor-pointer"/>
+                {link && (
+                    <FaLink size={28} className="cursor-pointer"/>
                 )}
                 {figma && (
                     <Link href={figma}>

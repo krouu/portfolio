@@ -45,6 +45,7 @@ export const constants = [
         ],
         skills : "React, Next.js, JavaScript, Tailwind CSS, Swiper",
         git : "https://github.com/krouu/pailkdabang.git",
+        link : "https://pailkdabang.vercel.app/",
     },{
         title : "포트폴리오 웹사이트",
         date : "2025.02(1人 개인 프로젝트)",
@@ -56,5 +57,6 @@ export const constants = [
         skills : "React, Next.js, JavaScript, Tailwind CSS, Swiper, Framer-motion, React-icons",
         git : "https://github.com/krouu/portfolio.git",
         figma : "https://www.figma.com/design/mYWfmL0eGUrOt7go5uuCft/portfolio?node-id=4-2&t=1zCIIxkSm4aTXCCK-1",
+        link : "https://portfolio-five-mocha-10.vercel.app/",
     }
 ]
