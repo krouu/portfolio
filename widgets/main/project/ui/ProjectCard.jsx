@@ -26,7 +26,9 @@ const ProjectCard = ({title, date, contents, coment, skills, git, link, figma}) 
                     </Link>
                 )}
                 {link && (
-                    <FaLink size={28} className="cursor-pointer"/>
+                    <Link href={link}>
+                        <FaLink size={25} className="cursor-pointer"/>
+                    </Link>
                 )}
                 {figma && (
                     <Link href={figma}>
