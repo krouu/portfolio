@@ -3,8 +3,8 @@ import { shareConstants } from "@/share/color/shareConstants";
 const Career = ({companyLogo, company, period, title, position, work1, contents1, work2, contents2}) => {
     return (  
         <div className="w-full flex gap-5 md:gap-10 border border-gray-200 rounded-xl py-5 px-4 md:px-10 drop-shadow-md">
-            <div className="flex justify-center items-center border border-gray-200 rounded-full w-20 h-20 md:w-52 md:h-52">
-                <img className="w-16 md:w-44" src={companyLogo} alt="" />
+            <div className="flex justify-center items-center border border-gray-200 rounded-full w-16 h-16 md:w-52 md:h-52">
+                <img className="w-14 md:w-44" src={companyLogo} alt="" />
             </div>
             <div style={{fontFamily:`${shareConstants.font.normal}`}} className="flex flex-col gap-1">
                 <p className="text-sm md:text-xl font-black">{company}</p>
