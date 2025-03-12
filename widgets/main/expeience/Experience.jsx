@@ -7,7 +7,7 @@ import Study from "./ui/Study";
 const Experience = () => {
     return (  
         <section className="w-screen">
-            <article className="w-full max-w-sm md:max-w-screen-md lg:max-w-screen-xl m-auto py-24">
+            <article className="w-full max-w-md md:max-w-screen-md lg:max-w-screen-xl m-auto py-24">
                 <Title title={"EXPEIENCE"} />
                 <div className="flex flex-col gap-10">
                     <div>
