@@ -16,7 +16,7 @@ const Skill = () => {
 
     return (  
         <section style={{backgroundColor:`${shareConstants.color.beige}`}} className="w-screen">
-            <article className="w-full max-w-screen-xl m-auto py-24">
+            <article className="w-full max-w-sm md:max-w-screen-md lg:max-w-screen-xl m-auto py-24">
                 <Title title={"SKILL"} />
                 <Swiper
                     slidesPerView={1}
