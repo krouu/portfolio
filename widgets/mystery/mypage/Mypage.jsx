@@ -8,7 +8,7 @@ import StartContent from "./ui/StartContent";
 const Mypage = () => {
     return (  
         <section className="w-screen py-28" style={{backgroundColor:`${shareConstants.color.beige}`}}>
-            <article className="w-full max-w-screen-lg m-auto">
+            <article className="w-full max-w-md md:max-w-screen-md lg:max-w-screen-lg m-auto">
                     <div className="flex flex-col gap-56" style={{fontFamily:`${shareConstants.font.pixel}`}}>
                         <StartContent />
                         <ChapterOne />

@@ -15,7 +15,7 @@ const ChapterTwo = () => {
                     }}
             >
             <Title title={"# 고통을 즐기는 편"} />
-                <div className="text-2xl">
+                <div className="text-xs md:text-base lg:text-xl">
                     <p className="text-slate-600">첫 알바, </p>
                     <p>"이왕 시작하는거 서울에서 제일 사람이 많은 곳에서 일하자!"</p>
                 </div>
@@ -30,7 +30,7 @@ const ChapterTwo = () => {
                     }}
             >
                 <div className="flex justify-between items-center">
-                    <div className="text-xl text-slate-600">
+                    <div className="text-xs md:text-base lg:text-xl text-slate-600">
                         <p># 6층짜리 건물</p>
                         <p># 전매장 중 1위 매장</p>
                         <p># 외국인 비중 60%</p>
@@ -64,7 +64,7 @@ const ChapterTwo = () => {
             >
                 <div className="relative flex justify-center">
                     <img className="w-4/5" src="/topten2.jpg" alt="" />
-                    <div style={{top:"10%"}} className="absolute w-full flex justify-center bg-white p-16 text-3xl text-red-700">
+                    <div style={{top:"10%"}} className="absolute w-full flex justify-center bg-white p-16 text-lg md:text-2xl lg:text-3xl text-red-700">
                         <p>8개월째 근무중인 고인물이 되었다</p>
                     </div>
                 </div>

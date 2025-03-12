@@ -1,8 +1,8 @@
-import Mystery from "@/widgets/mystery/Mystery";
+import Mystery from "@/widgets/mystery/Mystory";
 
 const page = () => {
     return (  
-        <Mystery />
+        <Mystory />
     );
 }
  
