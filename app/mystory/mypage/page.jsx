@@ -1,4 +1,4 @@
-import Mypage from "@/widgets/mystery/mypage/Mypage";
+import Mypage from "@/widgets/mystory/mypage/Mypage";
 
 const page = () => {
     return (  

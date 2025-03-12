@@ -1,7 +1,7 @@
 import { shareConstants } from "@/share/color/shareConstants";
 import Link from "next/link";
 
-const Mystery = () => {
+const Mystory = () => {
     return (  
         <section className="w-screen h-screen" style={{backgroundColor:`${shareConstants.color.beige}`}}>
             <article className="w-full h-full max-w-screen-xl m-auto flex justify-center items-center py-28">
@@ -11,7 +11,7 @@ const Mystery = () => {
                         <p>미스터리 박스를 찾으셨군요!</p>
                         <p>그렇다면 저와 더 가까워지시겠습니까?</p>
                         <div className="flex gap-7 text-2xl md:text-4xl pt-10">
-                            <Link href={"/mystery/mypage"} className="cursor-pointer px-1 hover:bg-yellow-300 rounded-lg">
+                            <Link href={"/mystory/mypage"} className="cursor-pointer px-1 hover:bg-yellow-300 rounded-lg">
                                 <p>YES</p>
                             </Link>
                             <Link href={"/"} className="cursor-pointer px-1 hover:bg-yellow-300 rounded-lg">
@@ -25,4 +25,4 @@ const Mystery = () => {
     );
 }
  
-export default Mystery;
+export default Mystory;

@@ -14,9 +14,9 @@ const Cenrtifications = () => {
                         <CenrtContent key={i} {...v} />
                     ))}
                 </div>
-                <Link href={"/mystery"}>
+                <Link href={"/mystory"}>
                     <div className="w-fit bg-white p-5 rounded-full absolute right-0 bottom-10 cursor-pointer">
-                        <img className="w-10 md:w-20" src="/mysteryBox.png" alt="" />
+                        <img className="w-10 md:w-20" src="/mystoryBox.png" alt="" />
                     </div>
                 </Link>
             </article>
