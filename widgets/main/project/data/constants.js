@@ -19,7 +19,7 @@ export const constants = [
             "- 사이트에 상품을 등록하는 기업의 관리자 페이지 구현",
             "- 최고 관리자 페이지에서 회원, 기업, 상품, 결제 정보를 관리",
         ],
-        skills : "JAVA, Spring boot, Mybatis, Thymelef, Git, MySQL, dbeaver, Git",
+        skills : "JAVA, Spring boot, Mybatis, Thymelef, Git, MySQL, dbeaver",
         git : "https://github.com/leeuihyoun/traveler/tree/jueun",
         figma : "https://www.figma.com/design/9SQn2br6QKvs3VQyEQbMu9/TeamProject?node-id=0-1&t=EaXKI99q8VAkfRYW-1",
     },{
@@ -34,7 +34,7 @@ export const constants = [
             "- React 지식 없이 프로젝트 참여, React를 배우게 된 계기",
         ],
         skills : "JAVA, Spring boot, JPA, MySQL, AWS S3, React, Git", 
-        git : "https://github.com/Incheon-IT-Webdevleop/private-blog.git",
+        git : "https://github.com/Incheon-IT-Webdevleop/private-blog/tree/jueun",
     },{
         title : "빽다방 웹사이트",
         date : "2025.02(1人 개인 프로젝트)",
