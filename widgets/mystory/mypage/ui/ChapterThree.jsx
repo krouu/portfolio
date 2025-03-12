@@ -15,7 +15,7 @@ const ChapterThree = () => {
                 }}
             >
             <Title title={"# 첫인상은 shy girl, 친해지면 못말리는 아가씨"} />
-            <div className="flex flex-col gap-10 text-sm md:text-xl pb-36">
+            <div className="flex flex-col gap-10 text-xs md:text-xl pb-36">
                 <p>수줍..</p>
                 <p style={{paddingLeft:"30%"}}>수줍..</p>
                 <p style={{paddingLeft:"60%"}}>부끄..</p>
