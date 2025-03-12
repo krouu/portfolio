@@ -1,6 +1,6 @@
 const SkillStack = ({name, color}) => {
     return (  
-        <div style={{backgroundColor:`${color}`}} className="p-3 rounded-xl font-black text-white">{name}</div>
+        <div style={{backgroundColor:`${color}`}} className="p-2 md:p-3 rounded-lg md:rounded-xl text-xs md:text-base font-black text-white">{name}</div>
     );
 }
  
