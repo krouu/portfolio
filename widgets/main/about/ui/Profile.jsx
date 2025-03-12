@@ -7,27 +7,29 @@ import { constants } from "../data/constants";
 import ProfileContents from "./ProfileContents";
 import { shareConstants } from "@/share/color/shareConstants";
 
+
+
 const Profile = () => {
     return (  
-        <div style={{fontFamily:`${shareConstants.font.normal}`}} className="grid grid-cols-2 gap-7">
-            <div className="flex  items-center gap-4">
-                <IoPersonSharp size={35}/>
+        <div style={{fontFamily:`${shareConstants.font.normal}`}} className="grid grid-cols-1 md:grid-cols-2 gap-7">
+            <div className="flex items-center gap-4">
+                <IoPersonSharp className="text-sm md:text-2xl lg:text-4xl"/>
                 <ProfileContents {...constants.profiles.name} />
             </div>
-            <div className="flex  items-center gap-4">
-                <FaBirthdayCake size={35}/>
+            <div className="flex items-center gap-4">
+                <FaBirthdayCake className="text-sm md:text-2xl lg:text-4xl"/>
                 <ProfileContents {...constants.profiles.birth} />
             </div>
-            <div className="flex  items-center gap-4">
-                <FaPhone size={35}/>
+            <div className="flex items-center gap-4">
+                <FaPhone className="text-sm md:text-2xl lg:text-4xl"/>
                 <ProfileContents {...constants.profiles.tell} />
             </div>
-            <div className="flex  items-center gap-4">
-                <IoLocationSharp size={35}/>
+            <div className="flex items-center gap-4">
+                <IoLocationSharp className="text-sm md:text-2xl lg:text-4xl"/>
                 <ProfileContents {...constants.profiles.location} />
             </div>
-            <div className="flex  items-center gap-4">
-                <MdEmail size={35}/>
+            <div className="flex items-center gap-4 min-h-[30px]">
+                <MdEmail className="text-sm md:text-2xl lg:text-4xl flex-shrink-0"/>
                 <ProfileContents {...constants.profiles.email} />
             </div>
         </div>
