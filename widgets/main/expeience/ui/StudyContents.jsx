@@ -4,7 +4,7 @@ const StudyContents = ({title, contents}) => {
     return (  
         <li>
             {title}
-            <p style={{color:`${shareConstants.color.contentBlack}`}} className="text-sm">
+            <p style={{color:`${shareConstants.color.contentBlack}`}}>
                 {contents}
             </p>
         </li>
