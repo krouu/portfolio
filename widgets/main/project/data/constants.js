@@ -66,8 +66,9 @@ export const constants = [
             "- 나와 같이 사이드 프로젝트를 함께 진행할 개발자가 없는 사람들을 위해 마음이 맞는 사람들끼리 프로젝트를 꾸려나갈 수 있는 플랫폼이 있었으면 좋겠다는 생각을 하게 되었다",
             "- 개발 진행중",
         ],
-        skills : "Next.js, JavaScript, Spring boot, SQL",
+        skills : "Next.js, TypeScript, TailwindCSS, JAVA, Spring boot, SQL",
         git : "https://github.com/krouu/sideDev-frontend.git",
         figma : "https://www.figma.com/design/oTfGaCL3PbAmXBkmymIrTf/%EC%82%AC%EC%9D%B4%EB%93%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%A7%A4%EC%B9%AD-%ED%94%8C%EB%9E%AB%ED%8F%BC?node-id=0-1&t=2C8DpxjmTqBwngNd-1",
+        link : "https://side-dev-frontend.vercel.app/",
     }
 ]
