@@ -23,19 +23,6 @@ export const constants = [
         git : "https://github.com/leeuihyoun/traveler/tree/jueun",
         figma : "https://www.figma.com/design/9SQn2br6QKvs3VQyEQbMu9/TeamProject?node-id=0-1&t=EaXKI99q8VAkfRYW-1",
     },{
-        title : "개인 블로그(Private Blog)",
-        date : "2024.08(3人 팀프로젝트)",
-        cotents : "그날의 일기 및 영화 리뷰 글을 적을 수 있는 개인적인 블로그",
-        coment : [
-            "- 회원가입을 통한 커뮤니티 이용",
-            "- 일기 작성과 영화 리뷰를 작성할 수 있는 개인적인 블로그",
-            "- 일기 작성 부분 구현",
-            "- AWS S3를 이용하여 이미지를 서버에 저장하고 url로 변환 후 DB에 저장",
-            "- React 지식 없이 프로젝트 참여, React를 배우게 된 계기",
-        ],
-        skills : "JAVA, Spring boot, JPA, MySQL, AWS S3, React, Git", 
-        git : "https://github.com/Incheon-IT-Webdevleop/private-blog/tree/jueun",
-    },{
         title : "빽다방 웹사이트",
         date : "2025.02(1人 개인 프로젝트)",
         cotents : "빽다방 웹사이트",
